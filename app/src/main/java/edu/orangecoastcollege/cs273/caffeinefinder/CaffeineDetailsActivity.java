@@ -53,9 +53,9 @@ public class CaffeineDetailsActivity extends AppCompatActivity implements OnMapR
         LatLng coordinate = new LatLng(mSelectedCaffeineLocation.getLatitude(), mSelectedCaffeineLocation.getLongitude());
         mMap.addMarker(new MarkerOptions().position(coordinate).title(mSelectedCaffeineLocation.getName()));
 
-        //TODO: Add another LatLng coordinate named myCoordinate based off mMyLocation.
-        //TODO: Add a custom marker at myCoordinate
-        //TODO: Move the camera position to target myCoordinate
+        // Done: Add another LatLng coordinate named myCoordinate based off mMyLocation.
+        // Done: Add a custom marker at myCoordinate
+        // Done: Move the camera position to target myCoordinate
         LatLng myCoordinate = new LatLng(mMyLocation.getLatitude(), mMyLocation.getLongitude());
         mMap.addMarker(new MarkerOptions()
                 .position(myCoordinate)
