@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">Caffeine Finder 2</string>
+    <string name="closest_caffeine_button_text">Find Closest Caffeine!</string>
+</resources>
